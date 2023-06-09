@@ -89,6 +89,7 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
   .movie-cont {
+    background-image: url("background1.png");
     display: flex;
     text-align: start;
     height:340px;
@@ -103,6 +104,7 @@
     position: absolute;
     width:100%;
     justify-self: center;
+    align-items: center;
     filter:brightness(90%);
   }
   .details{
@@ -129,7 +131,7 @@
     margin-bottom: 10px;
   }
   .flip-card:hover .flip-card-inner {
-    transform: rotateY(360deg);
+    transform: scale(.82);
   }  
   #side-bar {
     margin-top: 60px;
