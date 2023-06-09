@@ -142,7 +142,8 @@
     height: 100%;
     position: fixed;
     display: inline-block;
-    overflow:hidden;
+    overflow-y:initial;
+    overflow-x:hidden;
   }
   #side-bar input {
     width: 100%;
@@ -155,12 +156,14 @@
     margin-left: 15%;
   }
   #add{
+    display: flex;
     background-color: black;
     color: white;
     position: relative;
-    width: 23vh;
+    width:60%;
     border-radius: 5px;
-    top: 30vh;
-    margin-left: 25px;
+    margin-top: 70%;
+    justify-content: center;
+    margin-left:16%;
   }
 
